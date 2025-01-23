@@ -1,0 +1,29 @@
+info:
+  displayName: Transparent taskbar
+  author: ScaDane
+  description: Transparent taskbar
+  tags: ['weg']
+layers:
+  weg:
+    bg: 2
+styles:
+  weg: |
+    .taskbar-bg-layer-2 {
+      opacity: 0.6;
+      background-color: rgb(0, 0, 0, 0.8);
+      border-radius: 15px;}
+
+    .weg-item-preview-container {
+    padding: 10px;
+    border-radius: 10px;
+
+    .preview-bg-layer-1 {
+      background-color: rgb(20, 20, 20, 0.7);
+      border-radius: 10px;
+    }}
+    .weg-item {
+    .bg-layer-1 {
+      background-color: rgb(20, 20, 20, 0.2);
+      border-radius: 25%;
+      box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.5);
+    }}
